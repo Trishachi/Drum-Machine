@@ -32,4 +32,4 @@ Tools Used:
 - Bootstrap
 
 
-[View Project Demo](#)
+[View Project Demo](https://trishachi.github.io/Drum-Machine/)
