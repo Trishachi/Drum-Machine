@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Rose', cursive;
+} 
+
+#display {
+    padding: 20px;
+}
+
+#drum-machine {
+    width: 50%;
+    padding: 25px 10px;
+}
+
+.drum-pad {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer {
+    font-weight: lighter;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #drum-machine {
+        width: 80%;
+    }
+  }

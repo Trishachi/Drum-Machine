@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Red+Rose:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Drum Machine - FreeCodeCamp Challenge</title>
+</head>
+
+<body>
+    <h1 class="text-center">Drum Machine</h1>
+    <div class="container card" id="drum-machine">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <h4>Display:</h4>
+                <div id="display" class="card">Display goes here</div>
+            </div>
+            <div class="col-sm-6">
+                <button id="drum-0" class="drum-pad btn btn-primary" onclick="play('Q')">Q
+                    <audio src="/sounds/bubbles.mp3" name="Bubbles" class="clip" id="Q"></audio> </button>
+                <button id="drum-1" class="drum-pad btn btn-primary" onclick="play('W')">W
+                    <audio src="/sounds/clay.mp3" name="Clay" class="clip" id="W"></audio>
+                </button>
+                <button id="drum-2" class="drum-pad btn btn-primary" onclick="play('E')">E
+                    <audio src="/sounds/confetti.mp3" name="Confetti" class="clip" id="E"></audio>
+                </button>
+                <button id="drum-3" class="drum-pad btn btn-primary" onclick="play('A')">A
+                    <audio src="/sounds/corona.mp3" name="Corona" class="clip" id="A"></audio>
+                </button>
+                <button id="drum-4" class="drum-pad btn btn-primary" onclick="play('S')">S
+                    <audio src="/sounds/dotted-spiral.mp3" name="Dotted Spiral" class="clip" id="S"></audio>
+                </button>
+                <button id="drum-5" class="drum-pad btn btn-primary" onclick="play('D')">D
+                    <audio src="/sounds/glimmer.mp3" name="Glimmer" class="clip" id="D"></audio>
+                </button>
+                <button id="drum-6" class="drum-pad btn btn-primary" onclick="play('Z')">Z
+                    <audio src="/sounds/moon.mp3" name="Moon" class="clip" id="Z"></audio>
+                </button>
+                <button id="drum-7" class="drum-pad btn btn-primary" onclick="play('X')">X
+                    <audio src="/sounds/piston-3.mp3" name="Piston 3" class="clip" id="X"></audio>
+                </button>
+                <button id="drum-8" class="drum-pad btn btn-primary" onclick="play('C')">C
+                    <audio src="/sounds/prism-2.mp3" name="Prism 2" class="clip" id="C"></audio>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-center">
+        <em>&copy;2020 Chisom Trisha Okoye </em></div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
