@@ -12,7 +12,6 @@ $(document).keydown(function (e) {
     switch (e.keyCode) {
         case 81:
             play("Q");
-            displayField.innerHTML = "Bubbles"
             break;
         case 87:
             play("W");
